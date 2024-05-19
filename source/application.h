@@ -69,7 +69,6 @@ public:
 	void UpdateMenubar();
 	bool DoQueryClose();
 	bool DoQuerySave(bool doclose = true);
-	bool DoQuerySaveTileset(bool doclose = true);
 	bool DoQueryImportCreatures();
 	bool LoadMap(FileName name);
 

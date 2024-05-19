@@ -92,7 +92,6 @@ public:
 	void OnSelectNpcBrush(wxCommandEvent &event);
 	void OnSelectSpawnNpcBrush(wxCommandEvent &event);
 	void OnSelectHouseBrush(wxCommandEvent &event);
-	void OnSelectMoveTo(wxCommandEvent &event);
 	// ---
 	void OnProperties(wxCommandEvent &event);
 

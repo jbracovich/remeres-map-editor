@@ -189,8 +189,6 @@ public:
 	// Event handler for child window
 	void OnSwitchingPage(wxChoicebookEvent &event);
 	void OnPageChanged(wxChoicebookEvent &event);
-	void OnClickAddTileset(wxCommandEvent &WXUNUSED(event));
-	void OnClickAddItemToTileset(wxCommandEvent &WXUNUSED(event));
 
 protected:
 	PaletteType palette_type;
