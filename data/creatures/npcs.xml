@@ -311,6 +311,7 @@
 	<npc name="Etzel" looktype="66" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Eva" looktype="136" lookitem="0" lookaddon="0" lookhead="96" lookbody="98" looklegs="95" lookfeet="0" />
 	<npc name="Evan" looktype="132" lookitem="0" lookaddon="0" lookhead="115" lookbody="107" looklegs="63" lookfeet="114" />
+	<npc name="Evany" looktype="1575" lookitem="0" lookaddon="2" lookhead="114" lookbody="107" looklegs="63" lookfeet="114" />
 	<npc name="Ezean" looktype="339" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
 	<npc name="Ezebeth" looktype="140" lookitem="0" lookaddon="0" lookhead="96" lookbody="31" looklegs="34" lookfeet="94" />
 	<npc name="Fa Hradin" looktype="80" lookitem="0" lookaddon="0" lookhead="0" lookbody="0" looklegs="0" lookfeet="0" />
