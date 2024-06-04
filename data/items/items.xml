@@ -64503,8 +64503,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2600"/>
 		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
 			<attribute key="mana leech" value="3"/>
-			<attribute key="critical hit" value="3"/>
 			<attribute key="skillboost magic level" value="3"/>
 		</attribute>
 		<attribute key="script" value="moveevent;weapon">
@@ -74785,6 +74785,9 @@ Granted by TibiaGoals.com"/>
 		<attribute key="transformOnUse" value="42367"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
+	<item fromid="42582" toid="42608" article="a" name="ornamented wall">
+		<attribute key="primarytype" value="walls"/>
+	</item>
 	<item id="42619" name="stairs">
 		<attribute key="floorchange" value="north"/>
 	</item>
@@ -74910,11 +74913,14 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="280"/>
 	</item>
 	<item id="43740" article="a" name="scarab ocarina">
-		<attribute key="primarytype" value="light sources"/>
+		<attribute key="primarytype" value="quest items"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="description" value="It has a turquoise shimmer and was made from a real scarab shell."/>
 		<attribute key="absorbpercentearth" value="2"/>
 		<attribute key="weight" value="120"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 	</item>
 	<item id="43665" article="a" name="dead elder bloodjaw">
 		<attribute key="decayTo" value="0"/>
@@ -75030,6 +75036,15 @@ Granted by TibiaGoals.com"/>
 		<attribute key="decayTo" value="43815"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43863" article="a" name="conch shell horn">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="weight" value="150"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 	</item>
 	<item id="43864" article="a" name="sanguine blade">
 		<attribute key="primarytype" value="sword weapons"/>
@@ -76170,29 +76185,29 @@ Granted by TibiaGoals.com"/>
 			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
 		</attribute>
 	</item>
-		<item id="44855" name="flowering log">
+		<item id="45527" name="flowering log">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="description" value="You can sense the fluttering of small wings inside the hollow trunk"/>
 	    </item>
-		<item id="44856" name="flowering log">
+		<item id="45528" name="flowering log">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="decayTo" value="44857"/>
 		<attribute key="duration" value="6"/>
 	    </item>
-		<item id="44857" name="blue butterfly">
+		<item id="45529" name="blue butterfly">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="description" value="It is drinking nectar from one of the flowers"/>
 		</item>
-		<item id="44858" name="flowering log">
+		<item id="45530" name="flowering log">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="duration" value="3"/>
 		<attribute key="decayTo" value="44855"/>
 	    </item>
-		<item id="44859" article="a" name="alicorn backpack">
+		<item id="45531" article="a" name="alicorn backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76203,7 +76218,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 		</item>
-		<item id="44860" article="a" name="arboreal backpack">
+		<item id="45532" article="a" name="arboreal backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76214,7 +76229,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 		</item>
-		<item id="44861" article="a" name="arcanomancer backpack">
+		<item id="45533" article="a" name="arcanomancer backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76225,7 +76240,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 		</item>
-		<item id="44862" article="a" name="sanguine backpack">
+		<item id="45534" article="a" name="sanguine backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76236,7 +76251,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 		</item>
-		<item id="44863" article="a" name="spiritthorn backpack">
+		<item id="45535" article="a" name="spiritthorn backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76247,7 +76262,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 		</item>
-		<item id="44864" article="a" name="suncrest backpack">
+		<item id="45536" article="a" name="suncrest backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76258,7 +76273,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
-		<item id="44865" article="a" name="voidwalker backpack">
+		<item id="45537" article="a" name="voidwalker backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76269,7 +76284,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
-		<item id="44866" article="a" name="soul war backpack">
+		<item id="45538" article="a" name="soul war backpack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="50"/>
 		<attribute key="weight" value="1800"/>
@@ -76291,16 +76306,24 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>
-	<item id="44868" name="Stamina Refill">
+	<item id="45539" name="stamina refill">
 		<attribute key="primarytype" value="liquids"/>
 		<attribute key="description" value="Drinking this potion to completely fill your stamina."/>
-		<attribute key="weight" value="210"/>
+		<attribute key="weight" value="45"/>
 	</item>
-	<item id="44871" article="a" name="magic forcefield">
+		<item id="45540" name="remove skulls">
+		<attribute key="description" value="This item remove all Skulls."/>
+		<attribute key="weight" value="25"/>
+	</item>
+	<item id="45541" article="a" name="magic forcefield">
 		<attribute key="primarytype" value="teleporters"/>
 		<attribute key="type" value="teleport"/>
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="effect" value="teleport"/>
+	</item>
+		<item id="45542" article="a" name="roulet coin">
+		<attribute key="description" value="You can see the other side through it."/>
+		<attribute key="weight" value="30"/>
 	</item>
 </items>
 
